@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+
+<html lang="th">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ATP RESTAURANT </title>
+
+    <style>
+
+
+    .banner{
+        text-align: center;
+    }
+
+
+    .banner img{
+        width: 800px;
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    header{
+        background-color: #1e862f;
+        color: #fffefe;
+        padding: 20px;
+        text-align: center;
+    }
+
+
+    header h1{
+        margin: 0;
+        font-size: 32px;
+    }
+
+    nav {
+        background-color: #a9b321;
+        text-align: right;
+        padding: 12px 30px;
+    }
+
+    nav a{
+        color: #fdfafa;
+        text-decoration: none;
+        margin-left: 20px;
+        font-weight: bold;
+    }
+
+    nav a:hover{
+       color: #7d41c2;
+
+    }
+       
+
+    .product-container {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 20px;
+    }
+
+    .product-container {
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .product-container img {
+        width: 100%;
+        height: 200px;
+        object-fit: contain;
+    }
+
+     table {
+        width: 60%;
+        margin: 20px auto;
+        border-collapse: collapse;
+        text-align: canter;
+    }
+
+    table th {
+       background-color: #a54542;
+       color: white;
+       padding: 12px;
+    }
+    table td {
+        padding: 10px;
+        border: 1px solid #ccc;
+    }
+
+    table tr:nth-chilor(even){
+         background-color: #f2f6ff;
+    }
+    table tr:hover {
+        background-color: #dbeafe;
+    }
+    .contact {
+        padding: 20px 30px;
+        background-color: #f8fafc;
+    
+    }
+
+    .contact h2 {
+        color: #4b7cc7;
+        margin-bottom: 15px;
+    
+    }
+    .contact p { 
+        margin: 8px 0;
+        color: #475569;
+    }
+    footer {
+        background-color: #0f172a;
+        color: #ccc;
+        text-align: center;
+        padding: 15px;
+    }
+    footer p{
+        margin: 0;
+        font-size: 14px;
+    }
+    .product-button{
+        display:inline-block;
+        margin-top: 10px;
+        padding: 10px 20px;
+        background-color: #1b5219;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+    .product-button:hover{
+        background-color: #0056b3;
+        transform: scale(1.05);
+    }
+
+
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+ <div class=""></div>      
+        <h1>ATP RESTAURANT</h1>
+        <hr>
+    </header>
+
+    <nav>
+        <a href="#">หน้าแรก</a>
+        <a href="#">สินค้า</a>
+        <a href="#">โปรโมชั่น</a>
+        <a href="#">เกี่ยวกับเรา</a>
+        <a href="#">ติดต่อเรา</a>
+    </nav>
+    <hr>
+
+
+    <section class="banner">
+        <h2>Banner</h2>
+        <img src="pic/ATP RESTAURANT.jpg"alt="Banner">
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>เกี่ยวกับร้าน</h2>
+
+        <p>
+
+            ร้าน ATP RESTAURANT จำหน่ายอาหารตามสั่ง
+            สะอาดตามหลักสุขอนามัย อาหารสดอร่อย
+        </p>
+    </section>
+
+    <hr>
+   
+    <section>
+        <h2>สินค้าแนะนำ</h2>
+        <hr>
+        <div class="product-container">
+    <article>
+        <img src="Pic/ข้าวผัด.jpg" alt="fried rice">
+        <h3>fried rice</h3>
+        <p>ข้าวผัด</p>
+        <a href="Food1.html"class="product-button">ดูรายละเอียดสินค้า</a>
+    </article>
+
+    <article>
+        <img src="Pic/ข้าวหมูกระเทียม.jpg" alt="Rice with Garlic Pork">
+        <h3>Rice with Garlic Pork</h3>
+        <p>ข้าวหมูกระเทียม</p>
+         <a href="Food2.html"class="product-button">ดูรายละเอียดสินค้า</a>
+    </article>
+
+    <article>
+        <img src="Pic/คะน้าหมูกรอบ.jpg" alt="Crispy pork with kale">
+        <h3>Crispy pork with kale</h3>
+        <p>คะน้าหมูกรอบ</p>
+         <a href="Food3.html"class="product-button">ดูรายละเอียดสินค้า</a>
+    </article>
+
+
+    <article>
+        <img src="Pic/ต้มจืด.jpg" alt="Clear Soup">
+        <h3>Clear Soup</h3>
+        <p>ต้มจืด</p>
+         <a href="Food4.html"class="product-button">ดูรายละเอียดสินค้า</a>
+    </article>
+
+
+    
+    <article>
+        <img src="Pic/ต้มยำกุ้ง.jpg" alt="spicy prawn soup">
+        <h3>spicy prawn soup</h3>
+        <p>ต้มยำกุ้ง</p>
+         <a href="Food5.html"class="product-button">ดูรายละเอียดสินค้า</a>
+    </article>
+
+
+     <article>
+        <img src="Pic/ผัดกระเพราหมูสับ.jpg" alt="Stir-fried minced pork with holy basil">
+        <h3>Stir-fried minced pork with holy basil</h3>
+        <p>ผัดกระเพราหมูสับ</p>
+         <a href="Food6.html"class="product-button">ดูรายละเอียดสินค้า</a>
+    </article>
+
+
+    <article>
+        <img src="Pic/ผัดซีอิ๊ว.jpg" alt="Stir-fried noodles with soy sauce">
+        <h3>Stir-fried noodles with soy sauce</h3>
+        <p>ผัดซีอิ๊ว</p>
+         <a href="Food7.html"class="product-button">ดูรายละเอียดสินค้า</a>
+    </article>''
+
+
+     <article>
+        <img src="Pic/ผัดผัก.jpg" alt="Stir-fried vegetables">
+        <h3>Stir-fried vegetables</h3>
+        <p>ผัดผัก</p>
+         <a href="Food8.html"class="product-button">ดูรายละเอียดสินค้า</a>
+    </article>
+    
+    </section>
+    <hr>
+
+    <section>
+        <h2>ตารางรายการสินค้า</h2>
+        <table border="1">
+          <tr>
+           <th>ชื่อสินค้า</th>
+            <th>ราคา</th>
+          </tr>
+
+          <tr>
+            <td>ข้าวผัด</td> 
+              <td>50 บาท</td>
+          </tr>
+          <tr>
+            <td>ข้าวหมูกระเทียม</td> 
+              <td>50 บาท</td>
+          </tr>
+          
+          <tr>
+            <td>คะน้าหมูกรอบ</td> 
+              <td>60 บาท</td>
+          </tr>
+
+          <tr>
+            <td>ต้มจืด</td> 
+              <td>60 บาท</td>
+          </tr>
+
+          <tr>
+            <td>ต้มยำกุ้ง</td> 
+              <td>80 บาท</td>
+          </tr>
+
+          <tr>
+            <td>ผัดกระเพราหมูสับ</td> 
+              <td>50 บาท</td>
+          </tr>
+          
+          <tr>
+            <td>ผัดซีอิ๊ว</td> 
+              <td>60 บาท</td>
+          </tr>
+
+        <tr>
+            <td>ผัดผัก</td> 
+              <td>45 บาท</td>
+          </tr>
+
+        </table>
+    </section>
+    <hr>
+
+
+    <section>
+        <h2>ข้อมูลติดต่อ</h2>
+        <p>โทรศัพท์ : 012-3456789</p>
+        <p>Emil : atp_restaurant@gmail.com</p>
+        <p>Facebook : RESTAURANT</p>
+    </section>
+
+    <hr>
+
+
+    <footer>
+        <p>Copyright © 2026  ATP RESTAURANT</p>
+        
+    </footer>
+    
+</body>
+</html>
